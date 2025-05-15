@@ -8,7 +8,7 @@ python main.py
 gcc main.c -o main && ./main && rm ./main
 ```
 
-#### CPP
+#### Cpp
 ``` bash
 g++ main.cpp -o main && ./main && rm ./main
 ```
@@ -57,3 +57,6 @@ tsc main.ts && node main.js && rm main.js
 ``` bash
 bash main.sh
 ```
+
+#### Redis
+redis-server --daemonize yes && redis-cli --eval main.lua
