@@ -5,6 +5,6 @@ wget "https://storage.flutter-io.cn/flutter_infra_release/releases/stable/linux/
 tar -xf flutter_linux_3.29.3-stable.tar.xz -C "$(jq -r '.installPath' config.json | envsubst)/"
 
 echo '# flutter' >> ~/.bashrc
-echo 'export PATH="$(jq -r '.installPath' config.json | envsubst)/flutter/bin:$PATH"' >> ~/.bashrc
+echo "export PATH=\"$(jq -r '.installPath' config.json | envsubst)/flutter/bin:\$PATH\"" >> ~/.bashrc
 source ~/.bashrc
 rm flutter_linux_3.29.3-stable.tar.xz
