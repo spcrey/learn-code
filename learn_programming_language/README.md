@@ -43,11 +43,6 @@ sqlite3 database.db < main.sql && rm database.db
 go run main.go
 ```
 
-#### Dart
-``` bash
-dart main.dart
-```
-
 #### Type Script
 ``` bash
 tsc main.ts && node main.js && rm main.js

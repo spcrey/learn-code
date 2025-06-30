@@ -5,19 +5,19 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.11
-  - gcc_linux-64=11.4.0
-  - gxx_linux-64=11.4.0
-  - cmake=3.27
-  - maven=3.9
-  - numpy=1.26.2
-  - matplotlib==3.8.2
-  - mysql=8.4.0
-  - mysql-connector-python=8.4.0
-  - redis=5.0.3
-  - openjdk=17
-  - nodejs=18
-  - sqlite=3.36.0
-  - go=1.20
-  - kotlin=2.1.20
+  - python
+  - gcc_linux-64
+  - gxx_linux-64
+  - cmake
+  - maven
+  - numpy
+  - matplotlib
+  - mysql
+  - mysql-connector-python
+  - redis
+  - openjdk
+  - nodejs
+  - sqlite
+  - go
+  - kotlin
   
